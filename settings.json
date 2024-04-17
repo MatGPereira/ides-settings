@@ -1,0 +1,119 @@
+{
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontSize": 18,
+	"editor.fontLigatures": true,
+	"editor.lineHeight": 1.8,
+	"editor.rulers": [
+		80,
+		120
+	],
+	"editor.renderLineHighlight": "gutter",
+	"editor.semanticHighlighting.enabled": false,
+	"editor.minimap.enabled": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.tabSize": 2,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "always",
+		"source.fixAll.eslint": "always",
+		"source.organizeImports": "never"
+	},
+	"editor.formatOnSave": true,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "keyword.other.dotenv",
+				"settings": {
+					"foreground": "#FF000000"
+				}
+			}
+		]
+	},
+	"editor.parameterHints.enabled": true,
+	"editor.suggestSelection": "first",
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"editor.accessibilitySupport": "off",
+	"editor.suggest.preview": true,
+	"editor.stickyScroll.enabled": false,
+	"eslint.debug": true,
+	"eslint.format.enable": true,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"graphql"
+	],
+	"editor.tabCompletion": "onlySnippets",
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.iconTheme": "symbols",
+	"workbench.colorTheme": "Min Dark",
+	"workbench.editor.labelFormat": "short",
+	"workbench.statusBar.visible": false,
+	"workbench.activityBar.location": "default",
+	"workbench.layoutControl.enabled": false,
+	"workbench.editor.empty.hint": "hidden",
+	"explorer.compactFolders": false,
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"package.json": ".eslint, .prettier*, tsconfig*, vite*, pnpm-lock*, package-lock*, yarn-lock*, bun.lockb",
+		"tailwind.config*": "tailwind.config*, postcss.config*",
+		".env.local": ".env*",
+		".env": ".env*"
+	},
+	"window.titleBarStyle": "native",
+	"window.menuBarVisibility": "hidden",
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.sortOrder": "foldersNestsFiles",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+	"terminal.integrated.showExitAlert": false,
+	"terminal.integrated.gpuAcceleration": "off",
+	"files.associations": {
+		"*.page-template": "vue",
+		"*.layout-template": "vue",
+		"*.vue": "vue",
+		".env*": "dotenv",
+		"src/ACBrLib.Core/*.cs": "acbrlib",
+		"src/ACBrLib.Core/*/*.cs": "acbrlib",
+		"src/ACBrLib.PosPrinter/*.cs": "acbrlib"
+	},
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.donotVerifyTags": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"javascript.suggest.autoImports": true,
+	"typescript.suggest.autoImports": true,
+	"typescript.tsserver.log": "off",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"emmet.syntaxProfiles": {
+		"javascript": "jsx"
+	},
+	"sync-env.envDestination": [
+		".env.example",
+		".env.local",
+		".env.development"
+	],
+	"sync-env.envSource": ".env",
+	"[prisma]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[javascript]": {
+		"editor.maxTokenizationLineLength": 2500,
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"breadcrumbs.enabled": false,
+	"symbols.hidesExplorerArrows": false,
+	"diffEditor.wordWrap": "on",
+	"security.workspace.trust.untrustedFiles": "newWindow",
+}
