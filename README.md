@@ -1,2 +1,3 @@
-# vsc-settings
-My personal Visual Studio Code user settings json settings
+# IDEs-settings
+
+Here all my current settings for Visual Studio Code are available
